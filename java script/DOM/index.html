@@ -16,7 +16,16 @@
     <li class="tech">Two</li>
     <li class="tech">Three</li>
     </ul>
-    <!-- Class -->
+
+    <!-- Tag Name-->
+    <h4>Hello</h4>
+    <Namaste> Namaste</h4>
+    <h4>Hola</h4>
+
+    <!--Query Selector-->
+    <h2>Hello</h2>
+    <h2 class="classs">Namaste</h2>
+    <h2 id="ids">Hola</h2>
   <script>
     // Id
     let prag = document.getElementById("prag");
@@ -24,8 +33,21 @@
 
     // Class
 let tech = document.getElementById("tech");
-console.log(tech[1]);
-  </script>
+console.log(tech[1].innerText);
+tech[2].innerText = "Nodejs";
 
+// Tag Name
+let tagname = document.getElementByTagName("h4");
+console.log(tagname[2]);
+tagname[2].style.color = "red";
+
+// Query Selector
+let qs = document.querySelector(".classs")
+console.log(qs);
+//qs.className = "piyush"
+qs.classList = "piyush, pwskillspw"
+qs.setAttribute("title", "PWskills")
+
+  </script>
 </body>
-</html>
+</html>  
