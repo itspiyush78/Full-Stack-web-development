@@ -36,7 +36,7 @@ const heros = ["spiderman", "hulk"]
 const newHeros = ["ironman", ...heros, "thor"]
 
 const teacherName = "Hitesh Choudhary"
-console.log([...teacherName])
+console.log([...teacherName]);
 
 
 function twoTest(...values){
