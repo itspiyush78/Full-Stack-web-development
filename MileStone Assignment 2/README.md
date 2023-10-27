@@ -35,13 +35,13 @@ Each project is self-contained within its respective folder. To run any of the p
 2. Make sure you have Node.js and npm (Node Package Manager) installed.
 3. Run the following commands in your terminal:
 
-The Todo app should now be running on http://localhost:3000 in your web browser.
+The Todo app should now be running on http://localhost:5000 in your web browser.
 
 ## Contributions
 Contributions, bug reports, and feature requests are welcome! If you find any issues or have ideas to improve the projects, feel free to create an issue or submit a pull request.
 
 ## Contact
-If you have any questions or inquiries, you can reach me via email at [https://www.linkedin.com/in/nisha-maurya03/] or connect with me on GitHub.
+If you have any questions or inquiries, you can reach me via email at "https://www.linkedin.com/in/itspiyush78" or connect with me on GitHub.
 
 Happy coding!
 
