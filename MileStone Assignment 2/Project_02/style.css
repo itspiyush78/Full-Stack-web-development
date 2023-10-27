@@ -1,0 +1,144 @@
+/*  font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* designing the body */
+
+body {
+  background-color: #006d77;
+  font-family: "Poller One", cursive;
+}
+
+h3 {
+  color: #fdefc1;
+  font-weight: 100;
+}
+
+/* Top Navigation Styles */
+.topnav {
+  overflow: hidden;
+  background-color: #051331;
+  padding: 10px;
+}
+.topnav h1 {
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 2.4rem;
+  background: linear-gradient(to right, #ff7300, #ff7a3c, #ffffff, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.topnav .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* designing the searchbar */
+
+#query {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 13px 80px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #ffe791;
+  color: #000000;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Movie Cards Section Styles */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 15px;
+  background: #082931;
+  box-shadow: 10px 10px 10px #000000;
+  /* box-shadow: 10px 10px 10px #01161b; */
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+}
+
+img {
+  /* margin: auto; */
+  width: 230px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #985e2b;
+  border: none;
+  margin: auto;
+  padding: 10px 95px;
+  color: #ffffff;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #9d510e;
+}
+p {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  form {
+    width: 80%;
+  }
+
+  input {
+    padding: 10px 60px;
+  }
+
+  .card {
+    width: 250px;
+    height: 350px;
+  }
+
+  img {
+    width: 190px;
+    height: 210px;
+  }
+
+  button {
+    padding: 10px 60px;
+  }
+}
