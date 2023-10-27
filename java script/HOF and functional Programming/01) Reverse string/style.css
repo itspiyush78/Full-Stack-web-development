@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button{
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+#input{
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+#result{
+    font-size: 18px;
+    height: 35px;
+    border: 2px solid black;
+    width: 18%;
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+}
