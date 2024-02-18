@@ -1,3 +1,3 @@
 function handleClick() {
-    alert('Button clicked!');
+    alert('Thank you for clicking me!');
 }
