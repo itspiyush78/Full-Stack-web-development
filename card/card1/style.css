@@ -10,8 +10,10 @@ body {
 }
 
 #card {
+    height: 200px;
+    border: 300px black solid;
     width: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: black;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -48,4 +50,9 @@ body {
 
 #card-content button:hover {
     background-color: #0056b3;
+}
+
+#border{
+    background-origin: padding-box;
+    
 }
